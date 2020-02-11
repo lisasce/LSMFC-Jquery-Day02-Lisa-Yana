@@ -1,43 +1,43 @@
 grocery = `[
         {
 		 "img": "brie.jpg",
-         "name": "brie",
-         "price": "5",
+         "name": "Brie",
+         "price": "2.50",
          "currency": "EUR"
        },
 		
 		{
          "img": "bleu.jpg",
-         "name": "bleu",
-         "price": "3",
+         "name": "Bleu",
+         "price": "3.80",
          "currency": "EUR"
        },
 
        {
          "img": "cheddar.jpg",
-         "name": "cheddar",
-         "price": "4",
+         "name": "Cheddar",
+         "price": "4.10",
          "currency": "EUR"
 		},
 
        {
          "img": "mozarella.jpg",
-         "name": "mozzarella",
-         "price": "1",
+         "name": "Mozzarella",
+         "price": "1.90",
          "currency": "EUR"
         },
 
        {
          "img": "raclette.jpg",
-         "name": "raclette",
-         "price": "7",
+         "name": "Raclette",
+         "price": "5.70",
          "currency": "EUR"
         },
 
                {
          "img": "camembert.jpg",
-         "name": "camembert",
-         "price": "6",
+         "name": "Camembert",
+         "price": "6.20",
          "currency": "EUR"
         }
 

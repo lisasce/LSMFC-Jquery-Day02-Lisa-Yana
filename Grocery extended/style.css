@@ -69,6 +69,7 @@ header:not(#nav), footer{
 	border-radius: 30px;
 	padding: 2%;
 	box-shadow: 0 0 10px 2px #33202A;
+
 }
 
 .images{
@@ -84,6 +85,8 @@ p{
 	text-transform: uppercase;
 	font-size: 1em;
 }
+
+
 
 #caddy{
 	width: 5%;
@@ -107,11 +110,22 @@ p{
 
 #emptybtn{
 	font-size: 1.5rem;
+
 }
-#emptybtn, #closebtn{
+#emptybtn, #closebtn, .addBtn, #checkoutBtn, #plusBtn, #minusBtn{
 	border-radius: 0.8rem;
 	border: none;
 	box-shadow: 0 0 5px 1px #33202A;
+}
+
+.addBtn{
+	background-color: #92D5E6;
+	padding: 2px;
+	display: block;
+	margin: 5%;
+	width:  3rem;
+	height: 1.5rem;
+
 }
 
 .products{
