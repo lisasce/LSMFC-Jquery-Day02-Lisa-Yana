@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Vive le fromage putain!</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<main>
+		
+
+	<header>
+		<h1 id="headerTitle">Grocery</h1>
+		<div id="shoppingCart">
+			<img id="caddy" src="shopping-cart.png" alt="Shopping Cart">
+			<div id="caddyContent">
+				<p align="right">
+					<button id="closebtn" type="button" onclick="closeShopping()">❌</button>
+				</p>
+				<p>My Shopping Cart</p>
+				<p align="right">
+					<button id="emptybtn" type="button" onclick="emptyShopping()">&#128465</button>
+				</p>
+				<div id="productList"></div>
+				<hr>
+				<div id="total">Total: EUR </div>
+				<button><a href="shopping_cart.html">Checkout</a></button>
+			</div>
+		</div>
+			<nav id="nav">
+				<ul id="navUL">
+					<li class="navLI"><a class="navA" href="grocery.html"target="_self">Home</a></li>
+					<li class="navLI"><a class="navA" href="grocery.js"target="_blank">JS code
+					<li class="navLI"><a class="navA" href="style.css"target="_blank">Css</a></li>
+					<li class="navLI"><a class="navA" href="grocery.json"target="_blank">Json</a></li>
+				    
+				</ul>
+			</nav>
+
+	</header>
+
+	<div id="content">
+
+
+
+
+
+
+
+	</div>
+
+    <footer>
+        <p  style="text-align:center;">&copy; CodeFactory 2020</p>
+    </footer>
+	</main>
+<script src="grocery.json"></script>
+<script src="grocery.js"></script>
+</body>
+</html>
