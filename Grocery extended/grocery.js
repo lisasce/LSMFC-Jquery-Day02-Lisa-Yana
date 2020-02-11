@@ -2,12 +2,6 @@ var grocery = JSON.parse(grocery);
 var caddyArray = [];
 
 
-
-
-
-
-
-
 for (let i=0; i < grocery.length; i++){
 status = Math.floor(Math.random() * 26);
 	var img = ` <div id="div${i}" class="item">
@@ -24,7 +18,6 @@ status = Math.floor(Math.random() * 26);
 
 
 
-
 	if (status <= 6){
 		$("#div"+i).css("background-color", "#EE6352");
 		$("#div"+i+ " li:nth-of-type(2)").text("nearly out of stock!")
@@ -32,7 +25,6 @@ status = Math.floor(Math.random() * 26);
 	else if (status <= 12){
 		$("#p"+i).parent().css("background-color", "#FAC05E");
 		$("#div"+i+ " li:nth-of-type(2)").text("order fast before we get out of stock!")
-
 	}
 
 
@@ -51,12 +43,8 @@ status = Math.floor(Math.random() * 26);
 		$("#productList").append(data);
 	};
 
-
-
-
-
-
 }
+
 
 $("#closebtn").click(function(){
 	$("#caddyContent").toggle();
